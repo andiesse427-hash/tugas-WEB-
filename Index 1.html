@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Website Pribadi Mahasiswa</title>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* NAVBAR FULL GRADASI */
+nav{
+    background: linear-gradient(135deg, #ff6f91, #4facfe);
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#fff0f5;
+}
+
+/* HERO FULL GRADASI */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background: linear-gradient(135deg, #ff6f91, #4facfe);
+    color:white;
+}
+
+.hero img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+}
+
+.hero h1{
+    margin-top:20px;
+    font-size:36px;
+}
+
+.hero p{
+    margin-top:10px;
+}
+
+/* SECTION */
+section{
+    padding:50px 10%;
+}
+
+/* CARD */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table, th, td{
+    border:1px solid #ddd;
+}
+
+th{
+    background:linear-gradient(90deg,#7dd3fc,#f9a8d4);
+    color:white;
+}
+
+th, td{
+    padding:10px;
+}
+
+/* FORM */
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* BUTTON FULL GRADASI */
+button{
+    background: linear-gradient(135deg, #ff6f91, #4facfe);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    filter: brightness(1.1);
+}
+
+/* VIDEO */
+.video-container{
+    text-align:center;
+}
+
+video{
+    width:100%;
+    max-width:700px;
+    border-radius:10px;
+}
+
+/* FOOTER FULL GRADASI */
+footer{
+    background: linear-gradient(135deg, #ff6f91, #4facfe);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* CV BUTTON */
+.cv-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background: linear-gradient(135deg, #ff6f91, #4facfe);
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.cv-btn:hover{
+    filter: brightness(1.1);
+}
+
+/* PRODUK IMAGE */
+.produk-img{
+    width:100%;
+    max-width:600px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#profil">Profil</a>
+    <a href="#about">About</a>
+    <a href="#produk">Produk</a>
+    <a href="#contact">Contact</a>
+   
+</nav>
+
+<section class="hero" id="home">
+
+    <h1>ANDI ESSE TENRI ULAN</h1>
+
+    <p>NIM : 05.01.23.2983</p>
+
+    <p>Program Studi Penyuluhan Pertanian Berkelanjutan</p>
+
+    <a href="cv.pdf" class="cv-btn" download>
+        Download CV
+    </a>
+
+</section>
+
+<section id="profil">
+
+    <div class="card">
+
+        <h2>Profil Singkat</h2>
+
+        <p style="margin-top:10px;">
+           Saya adalah mahasiswa Politeknik Pembangunan Pertanian Gowa yang memiliki minat dalam bidang pertanian, teknologi informasi, dan pengembangan sumber daya manusia. Saat ini saya aktif mengembangkan keterampilan akademik dan praktis, termasuk dalam inovasi pertanian seperti pembuatan Pupuk Organik Cair (POC) dari batang pisang, serta berpartisipasi dalam berbagai kegiatan akademik maupun nonakademik untuk meningkatkan kemampuan kepemimpinan, komunikasi, dan kerja sama tim.
+
+
+        </p>
+
+        <h2 style="margin-top:20px;">Data Diri</h2>
+
+        <table>
+            <tr>
+                <th>Keterangan</th>
+                <th>Data</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>ANDI ESSE TENRI ULAN</td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>05.01.23.2983</td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>Penyuluhan Pertanian Berkelanjutan</td>
+            </tr>
+            <tr>
+                <td>Universitas</td>
+                <td>POLBANGTAN GOWA</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <div class="card">
+
+        <h2>💡 TENTANG SAYA</h2>
+
+        <p style="margin-top:10px;">
+            Saya adalah mahasiswa semester 6 Politeknik Pembangunan Pertanian (Polbangtan) Gowa pada Program Studi Penyuluhan Pertanian Berkelanjutan. Saya memiliki minat pada bidang pertanian modern, teknologi informasi, dan kewirausahaan. Dalam proses perkuliahan, saya aktif mengembangkan keterampilan praktis, khususnya dalam pembuatan Pupuk Organik Cair (POC) dari limbah batang pisang sebagai bentuk inovasi pengolahan limbah pertanian yang ramah lingkungan dan bernilai guna.
+
+        </p>
+
+        <h3 style="margin-top:20px;">🛠️ KEAHLIAN</h3>
+
+        <p>• Pembuatan POC dari batang pisang</p>
+        <p>• Pengolahan limbah organik</p>
+        <p>• Fermentasi bahan organik</p>
+        <p>• Penyuluhan pertanian</p>
+        <p>• Microsoft Office</p>
+        <p>• HTML dasar</p>
+        <p>• Kerja sama tim</p>
+
+    </div>
+
+</section>
+
+<section id="produk">
+
+    <div class="card">
+
+        <h2>Produk POC (Batang Pisang)</h2>
+
+        <p style="margin-top:10px;">
+           🌱 Produk POC (Batang Pisang)
+
+Produk POC (Pupuk Organik Cair) dari batang pisang merupakan hasil inovasi pengolahan limbah organik yang difermentasi menjadi pupuk cair alami. Produk ini bermanfaat untuk meningkatkan kesuburan tanah, mempercepat pertumbuhan tanaman, serta mendukung pertanian yang ramah lingkungan dan berkelanjutan..
+        </p>
+
+
+        <img src="imagepoc-batang-pisang.jpg" class="produk-img" alt="Produk POC">
+
+        <h3 style="margin-top:20px;">Video Pembuatan</h3>
+
+        <div class="video-container">
+            <video controls>
+                <source src="video/pembuatan-poc.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <h3 style="margin-top:20px;">Daftar Harga</h3>
+
+        <table>
+            <tr>
+                <th>Ukuran</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>500 ml</td>
+                <td>Rp 10.000</td>
+            </tr>
+            <tr>
+                <td>1 Liter</td>
+                <td>Rp 18.000</td>
+            </tr>
+            <tr>
+                <td>5 Liter</td>
+                <td>Rp 75.000</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <div class="card">
+
+        <h2>Hubungi Saya</h2>
+
+        <form style="margin-top:10px;">
+            <input type="email" placeholder="Masukkan Email">
+            <textarea rows="5" placeholder="Tulis pesan Anda"></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Website Pribadi Mahasiswa</p>
+    <p>Dibuat untuk Tugas Pemrograman Web</p>
+
+</footer>
+
+</body>
+</html>
